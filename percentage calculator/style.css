@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#cbox{
+    margin: 15px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+
+background: linear-gradient(36deg, rgba(0,228,255,1) 0%, rgba(239,0,255,1) 100%);
+
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color:white;
+    height: 200px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 13px;
+    padding: 14px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+}
+#persentage,#amount{
+    height: 25px;
+    width: 80%;
+}
+form{
+    display: flex;
+    flex-direction: column;    
+    gap: 6px;
+    
+}
+button{
+    margin-top: 7px;
+    background-color: blue;
+    color: wheat;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    padding: 6px;
+}
+h3{
+    margin: 4px;
+}
